@@ -13,3 +13,19 @@
 var number1 = 5;
 var number2 = "5";
 console.log(number1 + number2);
+
+
+/*let message;
+message = "Hello world";
+
+console.log(message);*/
+
+
+let hello = "Hello world"; // открываем переменную и даем значение
+
+let message; // открываем переменную
+
+message = hello; // копируем значение с переменной hello
+
+alert(hello); // Result: Hello world
+alert(message); // Result: Hello world
