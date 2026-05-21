@@ -23,7 +23,6 @@ let message1 = 'Abzal is real gay';
 let message2 = `Abzal is real real gay`;
 
 
-
 // Есть три типа кавычек: двойные, одинарные, обратные.
 // Между двойных и одинарных кавычек, особой разницы нету.
 
@@ -38,3 +37,12 @@ alert(`Who is gay? ${string}`);
 
 let isGreater = 4 > 1;
 alert(isGreater);
+
+
+// Значение null - пусто, значение не известно.
+let age = null;
+
+// Значение undefined - значение не присвоено.
+let age1;
+alert(age1); // result: undefined
+
